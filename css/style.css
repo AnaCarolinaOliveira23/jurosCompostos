@@ -1,0 +1,39 @@
+.titulo {
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 20px;
+  
+}
+   
+  #taxa {
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+
+  #montante {
+    width:50%;
+    margin-right:20px;
+    margin-top: 5px;
+   
+  }
+  
+  #periodo {
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+  #mon {
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+
+  #ren {
+    width: 50%;
+    margin-right: 20px;
+    margin-top: 5px;
+  }
+
+
+  

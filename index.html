@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    
+  <link rel="stylesheet" href="./css/style.css" />
+  
+ 
+ 
+  <title>juros</title>
+</head>
+<body>
+  <h1 class="titulo"> Juros compostos</h1>
+  <section>
+  Capital Inicial:
+    <input class="inicial" id="montante" type="number" max="1000" min="100" step="100" /><br>
+  
+    Taxa de Juros:
+  <input class="juros" class="input-field col s12"id="taxa" type="number" max="12" min="-12" step="0.1"><br>
+
+  Período Meses:
+  <input class="meses" id="periodo" type="number" max="72" min="1" step="1"><br>
+ 
+  Montante inicial:
+  <input class="montante" id="mon" type="number"><br>
+
+
+  Rendimento:
+  <input class="rendimento"  id="ren" type="number"><br>
+
+  <button onclick="clicar()" class="waves-effect waves-light btn">Resultado</button>
+  <p class="resultado">
+
+    <button onclick="clicar()" class="waves-effect waves-light btn">Rendimento</button>
+    <p class="botaoRendimento">
+  </p>
+
+
+  </div>
+</section>
+
+
+
+ 
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
